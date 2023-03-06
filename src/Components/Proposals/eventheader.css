@@ -1,0 +1,48 @@
+.head {
+    display: flex;
+    
+    
+}
+
+.pro {
+    margin-top: 10px;
+    margin-left: 104px;
+    width: 117px;
+    height: 28px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 24px/29px Helvetica Neue;
+    letter-spacing: 0.72px;
+    color: #081838;
+    opacity: 1;
+}
+.search{
+    margin-top: 29px;
+margin-left: 94px;
+width: 140px;
+height: 30px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/18px Helvetica Neue;
+letter-spacing: 0.48px;
+color: #C7C7C7;
+opacity: 1;
+border-radius: 10px;
+}
+.filter{
+    margin-top: 29px;
+margin-left: 656px;
+width: 26px;
+height: 26px;
+opacity: 1;
+}
+.cre{
+    margin-top: 25px;
+margin-left:50px;
+width: 127px;
+height: 36px;
+/* UI Properties */
+background: #4E94F4 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+}

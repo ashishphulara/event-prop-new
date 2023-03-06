@@ -1,0 +1,165 @@
+:root {
+  --border: 1px solid #CCCCCC;
+
+}
+
+.proposal-form-container {
+  width: 80vw;
+  height: 90vh;
+
+  margin:  auto;
+  border: var(--border);
+  border-radius: 12px;
+  background-color: #FFFFFF;
+ 
+}
+
+.bg-proposal-form-container{
+  
+  background-size: cover;
+  padding: 100px 0 50px 0;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.proposal-form-heading {
+  text-align: center;
+  background-image: url("../../Assets/istockphoto-513550806-612x612.jpg");
+  font-size: 2rem;
+  letter-spacing: 0.78px;
+  color: #393A3B;
+  border-bottom: 0.5px solid #CCCCCC ;
+  padding: 10px 0;
+  margin:auto;
+  position: relative;
+}
+
+.proposal-form-heading>.go-back-btn{
+  font-size: 0.65rem;
+  padding: 0.5em 1em;
+  position: absolute;
+  text-decoration: none;
+  left: 20px;
+  top: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  background-color: rgb(237, 235, 235);
+}
+
+.proposal-form-heading>.go-back-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.proposal-form-container>form {
+  width: 100%;
+  padding: 10px 20px;
+  color: #2D2D2E;
+}
+
+.proposal-form-input-container,
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.proposal-form-container label {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.proposal-form-column {
+  width: 50%;
+}
+
+.input-container {
+  padding: 10px;
+}
+
+.input-container>input,
+.input-container>textarea,
+.input-container>select {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.row>.input-container {
+  width: 50%;
+}
+
+.proposal-form-btn-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.proposal-form-btn-container>button {
+  font-size: 1rem;
+  margin-top: 5%;
+  padding: 0.5em 1em;
+  background-color: #4E94F4;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: var(--border);
+}
+
+.proposal-form-btn-container>button:hover {
+  color: black;
+}
+
+input[type='file'] {
+  display: none;
+  border: var(--border);
+}
+
+ .add-btn {
+  float: right;
+  border: 1px solid #0078DD;
+  color: white;
+  background-color: #2D2D2E;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  padding: 0.5em 1em;
+  margin-right: 10%;
+} 
+
+
+.add-btn:hover{
+  background-color: #72e1eb;
+  color: #201f1f;
+}
+
+.images-preview {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 20px;
+}
+
+.images-preview>img{
+  width: 60px;
+  height: 60px;
+  margin: 2px;
+}
+
+input, textarea,select {
+  border: var(--border);
+  outline: none
+}
+
+#diff-img{
+  width: 50%;
+}
+#food{
+  width: 90%;
+}
+#event{
+  width: 90%;
+}

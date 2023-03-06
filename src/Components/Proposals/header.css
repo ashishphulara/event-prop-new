@@ -1,0 +1,63 @@
+.headt {
+  background-color: white;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.063);
+}
+
+.textt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  font-weight: bold;
+  color: rgb(62, 159, 192);
+  font-size: 1.5rem;
+  margin-right: auto; /* this will align the logo to the right */
+  
+}
+
+.vendort {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  color: rgb(62, 159, 192)
+}
+
+.imgt {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.logoutt {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+.logoutt:hover{
+  background-color: #963c45;
+}
+
+@media (max-width: 768px) {
+  .vendort {
+    display: none;
+  }
+  .logot {
+    font-size: 1.2rem;
+  }
+  .imgt {
+    width: 40px;
+    height: 40px;
+  }
+}

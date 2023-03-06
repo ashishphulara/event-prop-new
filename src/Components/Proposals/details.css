@@ -1,0 +1,123 @@
+/*  */
+  .allproposals {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* creates 3 equal columns */
+    grid-gap: 20px; /* adds gap between the columns */
+  }
+  
+  #ven-details {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: justify;
+    height: 106%;
+    margin-top: 0px;
+  }
+ #etp{
+  display: flex;
+  flex-direction: row;
+  
+  width: 150%;
+  margin-left: 12%
+ }
+ #email{
+  margin-left: -34%
+ }
+  #tdat{
+    margin-left: 160%;
+    margin-top: -34%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    
+  }
+  #main-ig{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  }
+  #ven-img{
+    max-width: 110%;
+    margin-top: -40px;
+  max-height: 100%;
+ 
+  }
+ 
+
+  #ven-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  #sel{
+    height: 10%;
+    width: 8%;
+    margin-left: 77%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(74, 203, 203);
+    color: black;
+    font-weight: bold;
+    font-size: large;
+  }
+  #ven-ar{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: justify;
+    
+    height: 100%;
+    width: 100%;
+    margin-left: -24%;
+    border-color: solid black 2px;
+  }
+  #fdp{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: justify;
+    
+    height: 100%;
+    width: 100%;
+    margin-left: -10%;
+    border-color: solid black 2px;
+  }
+  #mul-images{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 10%;
+    height: 100%;
+    width: 58%;
+    display: flex;
+    
+    flex-direction: column;
+    border-color: solid black 3px;
+  }
+
+  #con{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    margin-left: -25%;
+    border-color: solid black 2px;
+  }
+  #desc-ev{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    margin-left: -8%;
+    border-color: solid black 2px;
+  }
+  #details-con{
+    margin-right: 60%;
+    margin-top: -10%;
+  }
+ 

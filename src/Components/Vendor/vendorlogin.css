@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Lato:ital,wght@1,900&family=Shantell+Sans:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+}
+
+.party{
+    width: 100%;
+    height: 100vh;
+}
+.symbol{
+    position: absolute;
+    right: 89%;
+    height: 20%;
+    width: auto;
+    top: 4%;
+    margin-right: -5%;
+    filter: invert(110%);
+
+}
+#vendor-formContainer{
+    position: fixed;
+    top: 35%;
+right:9%;
+    width: 380px;
+height: 420px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 8px;
+opacity: 1;
+
+}
+.vendor-btn{
+    width: 50%;
+    height: 15%;
+}
+.vendor-btn:hover{
+    color: #4E94F4;
+    cursor: pointer;
+}
+.user-btn{
+    width: 50%;
+    height: 15%;
+}
+
+.user-btn:hover{
+    color: #4E94F4;
+    cursor: pointer;
+}
+
+
+.signup-text{
+    font-size: larger;
+    margin-top:8%;
+    margin-left:7%;
+}
+
+.input-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.phone-input{
+    width: 15rem;
+    height: 2.5rem;
+    margin-right: 2%;
+    margin-left: 3%;
+    margin-top: 9%;
+    border-radius: 5px;
+    border-color: rgba(225, 230, 230, 0.464);
+    transition: all 0.3s ease-in-out;
+}
+
+.phone-input:hover{
+    background-color: rgba(196, 204, 213, 0.557);
+    cursor: pointer;
+}
+.password-input{
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 5%;
+    border-radius: 5px;
+    border-color: rgba(225, 230, 230, 0.464);
+    transition: all 0.3s ease-in-out;
+}
+.password-input:hover{
+    background-color: rgba(196, 204, 213, 0.557);
+    cursor: pointer;
+}
+
+.forgot-text{
+    margin-left: 60%;
+    margin-top: 3%;
+}
+
+.forgot-text:hover{
+    color: rgb(198, 24, 24);
+    font-style: Roboto;
+    cursor: pointer;
+}
+.link-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.create-user{
+    margin-left: 6%;
+    font-style: Roboto;
+    color: #4E94F4;
+}
+
+.create-user:hover{
+ color: #1b5ab2;
+ cursor: pointer;
+}
+.sign-in{
+    height: 2rem;
+    width:6rem;
+    position: fixed;
+
+   right: 11%;
+    background: #4E94F4 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  color: aliceblue;
+  font-style: Roboto;
+ transition: all 0.3s;
+ 
+}
+
+.sign-in:hover{
+    background-color: #1b5ab2;
+    cursor: pointer;
+}
+.msg{
+    margin-top: 40px;
+    position: relative;
+    right: 45%;
+    color: red;
+    font-style: normal;
+    font-size: 20px;
+}
